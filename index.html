@@ -9,27 +9,35 @@
     <title>Tic-Tac-Toe</title>
   </head>
   <body>
-      
     <main>
       <h1>Tic-Tac-Toe Game</h1>
+      <div class="prompt">
+        <h3>Player</h3>
+        <img src="./assets/images/x-icon.svg" alt="" />
+        <div>
+          <p>Pick a square</p>
+          <input type="number" name="choice" id="choice" placeholder="ex: 5" style="width: 5rem">
+          <button>Enter</button>
+          <p class="alert">*Square is occupied</p>
+        </div>  
+      </div>
       <section>
         <div class="col">
-          <div class="row"><img src="./assets/images/x-icon.svg" alt=""></div>
-          <div class="row-center">2</div>
-          <div class="row">3</div>
+          <div class="row">1</div>
+          <div class="row-center">4</div>
+          <div class="row">7</div>
         </div>
         <div class="col-center">
-          <div class="row">4</div>
-          <div class="row-center"><img src="./assets/images/circle-icon.svg" alt=""></div>
-          <div class="row">6</div>
+          <div class="row">2</div>
+          <div class="row-center">5</div>
+          <div class="row">8</div>
         </div>
         <div class="col">
-          <div class="row">7</div>
-          <div class="row-center">8</div>
+          <div class="row">3</div>
+          <div class="row-center">6</div>
           <div class="row">9</div>
         </div>
       </section>
-      
     </main>
   </body>
 </html>
